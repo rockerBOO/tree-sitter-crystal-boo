@@ -1,0 +1,28 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "crystal-boo",
+      "path": ".",
+      "scope": "source.crystal-boo",
+      "file-types": [
+        ".crystal-boo"
+      ],
+      "injection-regex": "^crystal-boo$",
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "links": {
+      "repository": "https://github.com/rockerBOO/tree-sitter-crystal-boo"
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Dave Lage",
+        "email": "rockerboo@gmail.com"
+      }
+    ]
+  }
+}
